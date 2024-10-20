@@ -72,18 +72,13 @@ body{
     color: var(--tenne-tawny);
 }
 .search-btn{
-    
-    height: 55px;
-    font-size: 1.8rem;
+    height: 45px; /* Decreased height */
+    font-size: 1.2rem; /* Decreased from 1.4rem */
     background: var(--tenne-tawny);
     color: #fff;
     border: none;
-    border-radius: 2rem;
+    border-radius: 1.5rem; /* Slightly decreased border radius */
     transition: all 0.4s linear;
-    -webkit-transition: all 0.4s linear;
-    -moz-transition: all 0.4s linear;
-    -ms-transition: all 0.4s linear;
-    -o-transition: all 0.4s linear;
 }
 .search-btn:hover{
     background: var(--tenne-tawny-dark);
@@ -119,21 +114,13 @@ body{
     color: #fff;
     background: var(--tenne-tawny);
     font-weight: 500;
-    font-size: 1.1rem;
-    padding: 0.75rem 0;
+    font-size: 0.8rem; /* Decreased from 0.9rem */
+    padding: 0.5rem 0; /* Decreased padding */
     display: block;
-    width: 175px;
+    width: 150px; /* Decreased width */
     margin: 1rem auto;
-    border-radius: 2rem;
-    -webkit-border-radius: 2rem;
-    -moz-border-radius: 2rem;
-    -ms-border-radius: 2rem;
-    -o-border-radius: 2rem;
+    border-radius: 1.5rem; /* Slightly decreased border radius */
     transition: all 0.4s linear;
-    -webkit-transition: all 0.4s linear;
-    -moz-transition: all 0.4s linear;
-    -ms-transition: all 0.4s linear;
-    -o-transition: all 0.4s linear;
 }
 .recipe-btn:hover{
     background: var(--tenne-tawny-dark);
