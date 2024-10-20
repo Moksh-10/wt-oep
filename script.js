@@ -12,11 +12,7 @@ recipeCloseBtn.addEventListener("click", () => {
   mealDetailsContent.parentElement.classList.remove("showRecipe");
 });
 
-// git fetch
-// main ==>  git merge origin/Farhan
-// git push origin main
 
-// get meal list that matches with the ingredients
 function getMealList(searchtype) {
   let searchInputTxt = document.getElementById("search-input").value.trim();
   fetch(
